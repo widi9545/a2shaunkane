@@ -1,0 +1,10 @@
+/* make all buttons 20 by 20 pixels with white text and green background and a 10 pixel margin */
+
+.buttons{width:80px; height: 80px; background: grey; color: white; margin: 20px;}
+
+.contactbuttons { width: 80px; height: 80px; background: grey; color: white; margin: 20px; }
+
+.dialerbuttons { width: 80px; height: 80px; background: grey; color: white; margin: 20px; }
+
+
+
