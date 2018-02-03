@@ -42,4 +42,40 @@ $("#dialerbuttonnumbers1").click(function() { // when "button_id" is clicked
 	$("#phonedialer").val($("#phonedialer").val() + "1")
 });
 
+$("#dialerbuttonnumbers2").click(function() { // when "button_id" is clicked
+	$("#phonedialer").val($("#phonedialer").val() + "2")
 
+});
+
+$("#dialerbuttonnumbers3").click(function() { // when "button_id" is clicked
+	$("#phonedialer").val($("#phonedialer").val() + "3")
+});
+
+
+$("#dialerbuttonnumbers4").click(function() { // when "button_id" is clicked
+	$("#phonedialer").val($("#phonedialer").val() + "4")
+});
+
+$("#dialerbuttonnumbers5").click(function() { // when "button_id" is clicked
+	$("#phonedialer").val($("#phonedialer").val() + "5")
+});
+
+$("#dialerbuttonnumbers6").click(function() { // when "button_id" is clicked
+	$("#phonedialer").val($("#phonedialer").val() + "6")
+});
+
+$("#dialerbuttonnumbers7").click(function() { // when "button_id" is clicked
+	$("#phonedialer").val($("#phonedialer").val() + "7")
+});
+
+$("#dialerbuttonnumbers8").click(function() { // when "button_id" is clicked
+	$("#phonedialer").val($("#phonedialer").val() + "8")
+});
+
+$("#dialerbuttonnumbers9").click(function() { // when "button_id" is clicked
+	$("#phonedialer").val($("#phonedialer").val() + "9")
+});
+
+$("#dialer0").click(function() { // when "button_id" is clicked
+	("#phonedialer").val($("#phonedialer").val() + "0")
+});
