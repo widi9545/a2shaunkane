@@ -29,4 +29,11 @@ $("#addcontactbutton").click(function() { // when "button_id" is clicked
 	$("gesturebox").hide();
 });
 
+$("#gestureareabutton").click(function() { // when "button_id" is clicked
+	$("#gesturebox").show(); // show element
+	$("#dialer").hide();	// hide other element
+	$("#contactlist").hide();
+	$("addcontact").hide();
+});
+
 
