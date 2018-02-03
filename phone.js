@@ -81,5 +81,5 @@ $("#dialer0").click(function() { // when "button_id" is clicked
 });
 
 $("#dialerclear").click(function() { // when "button_id" is clicked
-	$("#phonedialer").val($("#phonedialer").val(""))
+	$("#phonedialer").val("")
 });
