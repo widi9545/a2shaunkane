@@ -79,3 +79,7 @@ $("#dialerbuttonnumbers9").click(function() { // when "button_id" is clicked
 $("#dialer0").click(function() { // when "button_id" is clicked
 	("#phonedialer").val($("#phonedialer").val() + "0")
 });
+
+$("#dialerclear").click(function() { // when "button_id" is clicked
+	$("#phonedialer").val($("#phonedialer").val(""))
+});
