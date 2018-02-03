@@ -37,3 +37,9 @@ $("#gestureareabutton").click(function() { // when "button_id" is clicked
 });
 
 
+
+$("#dialberbuttonnumbers1").click(function() { // when "button_id" is clicked
+	$("#phonedialer").val($("#phonedialer").val() + "1")
+});
+
+
