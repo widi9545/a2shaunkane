@@ -89,12 +89,17 @@ $("#dialerclear").click(function() { // when "button_id" is clicked
 
 $("#gesturearea").mousedown(function(event) {
 	$("#gesture_output").val("Down")
+	$("#gesturearea").mousemove(function(event)){
+		var msg = "Handler for mousemove called at";
+		msg += event.pageX + ", " + event.pageY;
+		$("#log").append("<div>" + msg + "</div>");
+	});
 
 	//$(alert("hello"))
 	//var x = "0";
 	//$(alert(x))
 });
 
-$("#gesturearea").mouseup(function() {
+$("#gesturearea").mouseup(function(event) {
 	$("#gesture_output").val("Up")
 });
