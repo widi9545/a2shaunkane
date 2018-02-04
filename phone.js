@@ -1,5 +1,6 @@
 
-
+var mouseX = 0
+var mouseY = 0
 
 $(document).ready(function() { // do this when the document is loaded
 	$("#addcontact").show(); // show the element with ID "element"
@@ -86,11 +87,12 @@ $("#dialerclear").click(function() { // when "button_id" is clicked
 });
 
 
-$("#gesturearea").mousedown(function() {
+$("#gesturearea").mousedown(function(event) {
 	$("#gesture_output").val("Down")
-	$(alert("hello"))
-	var x = "0";
-	$(alert(x))
+
+	//$(alert("hello"))
+	//var x = "0";
+	//$(alert(x))
 });
 
 $("#gesturearea").mouseup(function() {
