@@ -91,6 +91,8 @@ $("#gesturearea").mousedown(function(event) {
 	$("#gesture_output").val("Down")
 	mouseX = event.pageX
 	mouseY = event.pageY
+	alert(mouseX)
+	alert(mouseY)
 
 
 	
