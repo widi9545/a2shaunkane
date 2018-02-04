@@ -88,7 +88,9 @@ $("#dialerclear").click(function() { // when "button_id" is clicked
 
 $("#gesturearea").mousedown(function() {
 	$("#gesture_output").val("Down")
-	$(alert("hello"); var x = "0"; alert(x);)
+	$(alert("hello"))
+	$(var x = "0")
+	$(alert("x"))
 });
 
 $("#gesturearea").mouseup(function() {
