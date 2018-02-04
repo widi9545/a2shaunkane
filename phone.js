@@ -90,10 +90,12 @@ $("#dialerclear").click(function() { // when "button_id" is clicked
 $("#gesturearea").mousedown(function(event) {
 	$("#gesture_output").val("Down")
 	
+
 	$("#gesturearea").mousemove(function(event) {
 		var msg = "Handler for mousemove called at";
 		msg += event.pageX + ", " + event.pageY;
 		$("#log").append("<div>" + msg + "</div>");
+		$(alert("hello"))
 	});
 
 	//$(alert("hello"))
