@@ -107,10 +107,10 @@ $("#gesturearea").mouseup(function(event) {
 	$("#gesture_output").val("Up")
 
 	if(downX < startX){
-		alert("hello");
+		alert("Swipe Left");
 	}
 	if(downX > startX){
-		alert("test");
+		alert("Swipe Right");
 	}
 	if(downX == startX){
 		$("#gesture_output").val("Up")
