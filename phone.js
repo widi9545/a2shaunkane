@@ -109,5 +109,11 @@ $("#gesturearea").mouseup(function(event) {
 	if(downX < startX){
 		alert("hello");
 	}
+	if(downX > startX){
+		alert("test");
+	}
+	if(downX == startX){
+		$("#gesture_output").val("Up")
+	}
 	
 });
