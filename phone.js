@@ -1,6 +1,8 @@
 
-var mouseX = 0
-var mouseY = 0
+var startX = 0
+var startY = 0
+var downY = 0
+var downX = 0
 
 $(document).ready(function() { // do this when the document is loaded
 	$("#addcontact").show(); // show the element with ID "element"
@@ -89,16 +91,13 @@ $("#dialerclear").click(function() { // when "button_id" is clicked
 
 $("#gesturearea").mousedown(function(event) {
 	$("#gesture_output").val("Down")
-	mouseX = event.pageX
-	mouseY = event.pageY
-	alert(mouseX)
-	alert(mouseY)
-
+	startX = event.pageX
+	startY = event.pageY
 
 	
 	$("#gesturearea").mousemove(function(event) {
-		mouseX = event.pageX
-		mouseY = event.pageY
+		downX = event.pageX
+		downY = event.pageY
 	});
 
 
@@ -106,6 +105,9 @@ $("#gesturearea").mousedown(function(event) {
 
 $("#gesturearea").mouseup(function(event) {
 	$("#gesture_output").val("Up")
-	alert(mouseX)
-	alert(mouseY)
+
+	if(downX < startX){
+		alert("hello");
+	}
+	
 });
